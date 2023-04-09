@@ -1,0 +1,192 @@
+#body {
+    background-color: black;
+}
+
+#main_container {
+    background: black;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#header {
+    background: url(../img/BG_stars.png);
+    height: auto;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+}
+
+/*-----логотип сайту на всіх сторінках-----*/
+#img {
+    float: center;
+    margin-top: 50px;
+    width: 250px;
+    height: 200px;
+}
+
+#title {
+    width: auto;
+    padding: 2px 0 10px 0;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*-----Зображення місяця на всіх сторінках-----*/
+#img1 {
+    float: top;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+  }
+  
+  #img2 {
+    float: bottom;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+  }
+
+/*-----текст на всіх сторінках-----*/
+.center_content {
+    width: 100%;
+    height: auto;
+    clear: both;
+    padding: 10px 0 10px 0;
+    background: black;
+    text-align: center;
+}
+
+.maintext {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: 0 20px 0 50px;
+}
+
+/*-----головне меню-----*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+.menu-main {
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
+    text-align: center;
+    background: white;
+}
+
+.menu-main>li {
+    display: inline-block;
+    margin-top: 0.5%;
+    margin-bottom: 1.5%;
+}
+
+.menu-main>li:after {
+    content: "|";
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-main li:last-child:after {
+    content: none;
+}
+
+.menu-main a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 10px;
+    margin: 0 34px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+}
+
+.menu-main a,
+.menu-main a:visited {
+    color: #9d999d;
+}
+
+.menu-main a.current,
+.menu-main a:hover {
+    color: black;
+}
+
+.menu-main a:before,
+.menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background: black;
+    transition: .8s;
+}
+
+.menu-main a:hover:before,
+.menu-main .current:before {
+    left: 0;
+}
+
+.menu-main a:hover:after,
+.menu-main .current:after {
+    right: 0;
+}
+
+.menu-main a.active {
+    color: #414141;
+    box-shadow: 0px 5px 0px #414141;
+}
+
+.menu-main a.active:before,
+.menu-main a.active:after {
+    background: #414141;
+}
+
+
+@media (max-width: 550px) {
+    .menu-main {
+        padding-top: 0;
+    }
+
+    .menu-main li {
+        display: block;
+    }
+
+    .menu-main li:after {
+        content: none;
+    }
+
+    .menu-main a {
+        padding: 25px 0 20px;
+        margin: 0 30px;
+    }
+}
+
+/*-----footer-----*/
+#footer {
+    width: 100%;
+    height: 50px;
+    clear: both;
+    color: #837d7b;
+  }
+  
+  .left_footer {
+    float: left;
+    font-size: 15px;
+    padding: 20px 0 0 0;
+  }
+  
+  .right_footer {
+    float: right;
+    padding: 15px 5px 0 0;
+  }
