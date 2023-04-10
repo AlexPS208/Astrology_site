@@ -4,6 +4,9 @@ import { AppService } from './app.service';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { join } from 'path';
 import { NewsController } from './news/news.controller';
+import { DayAdviceController } from './day_advice/day_advice.controller';
+import { YearHoroscopeController } from './year_horoscope/year_horoscope.controller';
+import { CharacteristicsController } from './characteristics/characteristics.controller';
 
 @Module({
   imports: [
@@ -11,7 +14,7 @@ import { NewsController } from './news/news.controller';
       rootPath: join(__dirname, '..', 'views'),
     })
   ],
-  controllers: [AppController, NewsController],
+  controllers: [AppController, NewsController, DayAdviceController, YearHoroscopeController, CharacteristicsController],
   providers: [AppService],
 })
 export class AppModule {}
