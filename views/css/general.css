@@ -142,16 +142,6 @@
     right: 0;
 }
 
-.menu-main a.active {
-    color: #414141;
-    box-shadow: 0px 5px 0px #414141;
-}
-
-.menu-main a.active:before,
-.menu-main a.active:after {
-    background: #414141;
-}
-
 
 @media (max-width: 550px) {
     .menu-main {
