@@ -1,28 +1,9 @@
-<!DOCTYPE html>
-<html lang="ua">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/general.css">
-    <link rel="stylesheet" href="../../css/signs_characteristic.css">
-    <link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon">
-    <title>Astrology | Козеріг</title>
-</head>
+<%- include('../../partials/meta', {title: '| Козеріг', css: '../../css/signs_characteristic.css', generalCssPath: '../../'}); %>
 
 <body>
     <div id="main_container">
-        <div id="header">
-            <img id="img" src="../../img/logo.png">
-        </div>
-        <ul class="menu-main">
-            <li><a href="../../main.html">Головна</a></li>
-            <li><a href="../astrology_news.html">Новини астрології</a></li>
-            <li><a href="../zodiacs_characteristic.html">Характеристика знаків зодіаку</a></li>
-            <li><a href="../days_advice.html">Порада дня</a></li>
-            <li><a href="../years_horoscope.html">Гороскоп на рік</a></li>
-        </ul>
+        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+
         <div class="center_content">
             <div class="maintext">
                 <img id="img1" src="../../img/moon_stages.png">
@@ -51,10 +32,8 @@
                     розуму та декілька запасних планів своїх дій. Наділені вони й здоровим глуздом та розважливістю, а
                     тому якщо Ви спробуєте втягнути їх у якусь сумнівну авантюру з точністю 99,99 % вони вам відмовлять.
                 </p>
-                <div id="footer">
-                    <div class="left_footer">Astrology &copy; 2022</div>
-                    <div class="right_footer"></div>
-                </div>
+                
+                <%- include('../../partials/footer'); %>
             </div>
         </div>
     </div>

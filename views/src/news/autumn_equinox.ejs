@@ -1,29 +1,9 @@
-<!DOCTYPE html>
-<html lang="ua">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/general.css">
-    <link rel="stylesheet" href="../../css/news.css">
-
-    <link rel="shortcut icon" href="../../img/logo.ico" type="image/x-icon">
-    <title>Astrology | Осіннє рівнодення 2022</title>
-</head>
+<%- include('../../partials/meta', {title: '| Осіннє рівнодення 2022', css: '../../css/news.css', generalCssPath: '../'}); %>
 
 <body>
     <div id="main_container">
-        <div id="header">
-            <img id="img" src="../../img/logo.png">
-        </div>
-        <ul class="menu-main">
-            <li><a href="/">Головна</a></li>
-            <li><a href="/news" class="active">Новини астрології</a></li>
-            <li><a href="/characteristics">Характеристика знаків зодіаку</a></li>
-            <li><a href="/day_advice">Порада дня</a></li>
-            <li><a href="/year_horoscope">Гороскоп на рік</a></li>
-        </ul>
+        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+
         <div class="center_content">
             <div class="maintext">
                 <img id="img1" src="../../img/moon_stages.png">
@@ -47,10 +27,8 @@
 				<p>Тельці, Діви, Скорпіони, Риби змушені будуть змінювати свій звичний режим дня, перебудовувати на новий лад свою професійну сферу та життя загалом.</p>
 				<p>Осіннє рівнодення закінчує один цикл і починає новий, а в період їхньої зміни найбільше страждає той, хто не хоче змінюватися, 
 				тому не варто чіплятися за те, що йде. Отже, викиньте Ви вже оту страшну фіранку зі свого будинку та людину, що зробила боляче, зі своєї голови.</p>
-                <div id="footer">
-                    <div class="left_footer">Astrology &copy; 2022</div>
-                    <div class="right_footer"></div>
-                </div>
+                
+                <%- include('../../partials/footer'); %>
             </div>
         </div>
     </div>
