@@ -1,4 +1,5 @@
-import { Controller, Get, Render } from '@nestjs/common';
+import { Controller, Get, Render, Res } from '@nestjs/common';
+import { Response } from 'express';
 import { AppService } from './app.service';
 import { ViewsPath } from '../src/enums/viewsPath';
 
@@ -7,9 +8,9 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  @Render(ViewsPath.home)
-  root(): object {
-    return { message: 'Main page' };
+  // @Render(ViewsPath.home)
+  root(@Res() res: Response) {
+    return res.sendFile('index', {root: 'views'})
   }
 
   getHello(): string {
