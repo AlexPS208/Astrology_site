@@ -1,6 +1,6 @@
 import { Controller, Get, Render, Param, Res } from '@nestjs/common';
 import { Response } from 'express';
-import { ViewsPath } from 'src/enums/viewsPath';
+import { ViewsPath } from '../../src/enums/viewsPath';
 import { join } from 'path';
 
 
