@@ -8,7 +8,7 @@ import { otherRoutes } from './otherRoutes.module';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', 'views'),
+      rootPath: join(__dirname, '..', 'views', 'main.ejs'),
     }),
     otherRoutes
   ],
