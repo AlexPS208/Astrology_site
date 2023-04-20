@@ -11,4 +11,8 @@ export class AppController {
   root(): object {
     return { message: 'Main page' };
   }
+
+  getHello(): string {
+    return 'Hello World!';
+  }
 }
