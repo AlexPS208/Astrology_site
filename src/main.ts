@@ -11,9 +11,9 @@ async function bootstrap() {
     AppModule,
   );
 
-  app.useStaticAssets(join(__dirname, 'views'));
+  // app.useStaticAssets(join(__dirname, 'views'));
   // app.setBaseViewsDir(join(__dirname, '..', 'views'));
-  // app.set('views', join(__dirname, 'views'));
+  app.set('views', join(__dirname, 'views'));
   app.use('/static', express.static('views'));
   app.setViewEngine('ejs');
   app.engine('ejs', ejs.__express);
