@@ -1,5 +1,5 @@
 export enum ViewsPath {
-    home = 'main',
+    home = 'index',
     news = 'src/astrology_news',
     news_articles = 'src/news',
     characteristics = 'src/zodiacs_characteristic',
