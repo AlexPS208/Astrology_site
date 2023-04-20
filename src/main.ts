@@ -4,6 +4,7 @@ import { join } from 'path';
 import { AppModule } from './app.module';
 import dotenv from 'dotenv/config';
 import ejs from 'ejs';
+import express from 'express';
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(
@@ -14,6 +15,7 @@ async function bootstrap() {
   // app.setBaseViewsDir(join(__dirname, '..', 'views'));
   // app.setViewEngine('ejs');
   app.set('views', join(__dirname, 'views'));
+  app.use('/static', express.static('views'));
   app.set('view engine', 'ejs');
   app.engine('ejs', ejs.__express);
 
