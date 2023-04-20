@@ -11,12 +11,11 @@ async function bootstrap() {
     AppModule,
   );
 
-  // app.useStaticAssets(join(__dirname, '..', 'views'));
+  app.useStaticAssets(join(__dirname, '..', 'views'));
   // app.setBaseViewsDir(join(__dirname, '..', 'views'));
-  // app.setViewEngine('ejs');
-  app.set('views', join(__dirname, 'views'));
+  // app.set('views', join(__dirname, 'views'));
   app.use('/static', express.static('views'));
-  app.set('view engine', 'ejs');
+  app.setViewEngine('ejs');
   app.engine('ejs', ejs.__express);
 
   const PORT = process.env.PORT || 3000
