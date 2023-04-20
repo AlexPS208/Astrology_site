@@ -1,29 +1,9 @@
-<!DOCTYPE html>
-<html lang="ua">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/news.css">
-
-    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
-    <title>Astrology | Новини</title>
-</head>
+<%- include('../partials/meta', {title: '| Новини', css: '../css/news.css', generalCssPath: '../'}); %>
 
 <body>
     <div id="main_container">
-        <div id="header">
-            <img id="img" src="../img/logo.png">
-        </div>
-        <ul class="menu-main">
-            <li><a href="/">Головна</a></li>
-            <li><a href="/news" class="active">Новини астрології</a></li>
-            <li><a href="/characteristics">Характеристика знаків зодіаку</a></li>
-            <li><a href="/day_advice">Порада дня</a></li>
-            <li><a href="/year_horoscope">Гороскоп на рік</a></li>
-        </ul>
+        <%- include('../partials/header', {logoRelPath: './'}); %>
+
         <div class="center_content">
             <div class="maintext">
                 <img id="img1" src="../img/moon_stages.png">
@@ -33,10 +13,8 @@
 				<a href="/news/eclipses_corridore" class="news">Чого очікувати від коридора затемнень?</a>
 				<a href="/news/autumn_equinox" class="news">Що ж підготувало для Вас Осіннє рівнодення 23 вересня 2022 року</a>
 				<a href="/news/retrograd_mercury" class="news">Ретроградний Меркурій 10 вересня - 2 жовтня 2022 року: що на нас чекає</a>
-                <div id="footer">
-                    <div class="left_footer">Astrology &copy; 2022</div>
-                    <div class="right_footer"></div>
-                </div>
+
+                <%- include('../partials/footer'); %>
             </div>
         </div>
     </div>

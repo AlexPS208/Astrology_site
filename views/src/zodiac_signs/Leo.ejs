@@ -1,31 +1,17 @@
-<!DOCTYPE html>
-<html lang="ua">
+<%- include('../../partials/meta', {title: '| Лев', css: '../../css/signs_characteristic.css', generalCssPath: '../../'}); %>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/general.css">
-    <link rel="stylesheet" href="../../css/signs_characteristic.css">
-    
-    <link rel="shortcut icon" href="../../img/logo.ico" type="image/x-icon">
-    <title>Astrology | Лев</title>
-</head>
 
 <body>
     <div id="main_container">
-        <div id="header">
-            <img id="img" src="../../img/logo.png">
-        </div>
-        <ul class="menu-main">
-            <li><a href="/">Головна</a></li>
-            <li><a href="/news">Новини астрології</a></li>
-            <li><a href="/characteristics" class="active">Характеристика знаків зодіаку</a></li>
-            <li><a href="/day_advice">Порада дня</a></li>
-            <li><a href="/year_horoscope">Гороскоп на рік</a></li>
-        </ul>
+        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+
         <div class="center_content">
             <div class="maintext">
+                <a href="/characteristics">
+                    <div class="returnButton">
+                        <img src="../../img/back_arrow.png" alt="back_arrow">
+                    </div>
+                </a>
                 <img id="img1" src="../../img/moon_stages.png">
                 <img id="img2" src="../../img/moon_stages.png">
                 <h2>Характеристика знаків зодіаку</h2>
@@ -55,10 +41,7 @@
                 <p>Незважаючи на досить непростий характер, більшість з представників дуже товариські та мають багато
                     друзів.</p>
 
-                <div id="footer">
-                    <div class="left_footer">Astrology &copy; 2022</div>
-                    <div class="right_footer"></div>
-                </div>
+                <%- include('../../partials/footer'); %>
             </div>
         </div>
     </div>

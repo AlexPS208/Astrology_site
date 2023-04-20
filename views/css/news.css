@@ -26,3 +26,30 @@
     width: 600px;
     height: 400px;
 }
+
+
+/* -----Кнопка повертання на сторінку новин----- */
+.returnButton {
+    width: 30px;
+    background-color: #3e3e3e;
+    opacity: 0.5;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+.returnButton:hover {
+    background-color: #676767;
+    opacity: 0.7;
+}
+
+.returnButton:active {
+    background-color: #282828;
+    opacity: 0.7;
+}
+
+.returnButton img {
+    width: 15px;
+    height: 15px;
+}
