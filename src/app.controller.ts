@@ -1,6 +1,6 @@
 import { Controller, Get, Render } from '@nestjs/common';
 import { AppService } from './app.service';
-import { ViewsPath } from 'src/enums/viewsPath';
+import { ViewsPath } from '../src/enums/viewsPath';
 
 @Controller()
 export class AppController {
