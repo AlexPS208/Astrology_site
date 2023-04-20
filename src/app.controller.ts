@@ -10,7 +10,7 @@ export class AppController {
   @Get()
   // @Render(ViewsPath.home)
   root(@Res() res: Response) {
-    return res.sendFile(ViewsPath.home)
+    return res.sendFile(ViewsPath.home, {root: "src/views"})
   }
 
   getHello(): string {
