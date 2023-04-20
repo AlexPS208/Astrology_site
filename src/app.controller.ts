@@ -7,7 +7,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  // @Render(ViewsPath.home)
+  @Render(ViewsPath.home)
   root(): object {
     return { message: 'Main page' };
   }
