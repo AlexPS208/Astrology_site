@@ -15,6 +15,8 @@ async function bootstrap() {
   // app.setBaseViewsDir(join(__dirname, '..', 'views'));
   app.set('views', join(__dirname, 'views'));
   app.use('/static', express.static('views'));
+  app.use('/static', express.static('views/img'));
+  app.use('/static', express.static('views/css'));
   app.setViewEngine('ejs');
   app.engine('ejs', ejs.__express);
 
