@@ -1,14 +1,13 @@
-<%- include('../partials/meta', {title: '| Порада дня', css: '../css/advice_button.css', generalCssPath: '../'}); %>
+<%- include('partials/meta', {title: '| Порада дня', css: 'css/advice_button.css'}); %>
 
 
 <body>
     <div id="main_container">
-        <%- include('../partials/header', {logoRelPath: './'}); %>
+        <%- include('partials/header'); %>
 
         <div class="center_content">
             <div class="maintext">
-                <img id="img1" src="../img/moon_stages.png">
-                <img id="img2" src="../img/moon_stages.png">
+                <%- include('partials/moons'); %>
                 <h2>Порада дня</h2>
                 <p>Добрий ранок, день чи можливо навіть вечір! Не важливо о котрій годині з’явився час чи просто стало
                     цікаво – зірки завжди раді Вас бачити. А тому беріть філіжанку улюбленого напою, щось смачненьке та
@@ -19,7 +18,7 @@
                     Натисни мене
                 </div>
 
-                <%- include('../partials/footer'); %>
+                <%- include('partials/footer'); %>
 
             </div>
         </div>
