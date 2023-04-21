@@ -1,21 +1,20 @@
-<%- include('../../partials/meta', {title: '| Ретроградний Меркурій 2022', css: '../../css/news.css', generalCssPath: '../../'}); %>
+<%- include('../../partials/meta', {title: '| Ретроградний Меркурій 2022', css: 'css/news.css'}); %>
 
 <body>
     <div id="main_container">
-        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+        <%- include('../../partials/header'); %>
 
         <div class="center_content">
             <div class="maintext">
 				<a href="/news">
 					<div class="returnButton">
-						<img src="../../img/back_arrow.png" alt="back_arrow">
+						<img src="static/img/back_arrow.png" alt="back_arrow">
 					</div>
 				</a>
-                <img id="img1" src="../../img/moon_stages.png">
-                <img id="img2" src="../../img/moon_stages.png">
+				<%- include('../../partials/moons'); %>
                 <h2>Новини астрології</h2>
 				<h3>Ретроградний Меркурій 10 вересня - 2 жовтня 2022 року</h3>
-				<img id="img5" src="../../img/retrograd_mercury.png">
+				<img id="img5" src="static/img/retrograd_mercury.png">
 				<p>10 вересня починається ретроградний Меркурій…. «М-да, треш», - могли б сказати Вам ми, однак не такий цей період страшний як його описують. 
 				Спочатку ретроградити буде в Терезах. Завдяки цьому ми з Вами будемо зважувати всі «за» і «проти». 
 				Не варто дивуватися, якщо в Вас раптом прокинеться філософ, який буде вимагати відповіді на питання бути чи не бути.</p>

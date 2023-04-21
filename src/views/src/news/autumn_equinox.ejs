@@ -1,21 +1,20 @@
-<%- include('../../partials/meta', {title: '| Осіннє рівнодення 2022', css: '../../css/news.css', generalCssPath: '../'}); %>
+<%- include('../../partials/meta', {title: '| Осіннє рівнодення 2022', css: 'css/news.css'}); %>
 
 <body>
 	<div id="main_container">
-		<%- include('../../partials/header', {logoRelPath: '../'}); %>
+		<%- include('../../partials/header'); %>
 
 		<div class="center_content">
 			<div class="maintext">
 				<a href="/news">
 					<div class="returnButton">
-						<img src="../../img/back_arrow.png" alt="back_arrow">
+						<img src="static/img/back_arrow.png" alt="back_arrow">
 					</div>
 				</a>
-				<img id="img1" src="../../img/moon_stages.png">
-				<img id="img2" src="../../img/moon_stages.png">
+				<%- include('../../partials/moons'); %>
 				<h2>Новини астрології</h2>
 				<h3>Осіннє рівнодення 23 вересня 2022 року</h3>
-				<img id="img5" src="../../img/autumn_equinox.png">
+				<img id="img5" src="static/img/autumn_equinox.png">
 				<p>Меркурій продовжує ретроградити, а в нас тут Осіннє рівнодення.
 					Зараз розберемося що ж воно таке і з чим його «їсти». </p>
 				<p>У цей день особлива атмосфера. Давно розпочаті процеси набувають нових обертів, стає зрозумілим

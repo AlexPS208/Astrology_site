@@ -1,19 +1,17 @@
-<%- include('../../partials/meta', {title: '| Овен', css: '../../css/signs_characteristic.css', generalCssPath: '../../'}); %>
+<%- include('../../partials/meta', {title: '| Овен', css: 'css/signs_characteristic.css'}); %>
 
 <body>
     <div id="main_container">
-        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+        <%- include('../../partials/header'); %>
 
         <div class="center_content">
             <div class="maintext">
                 <a href="/characteristics">
                     <div class="returnButton">
-                        <img src="../../img/back_arrow.png" alt="back_arrow">
+                        <img src="static/img/back_arrow.png" alt="back_arrow">
                     </div>
                 </a>
-
-                <img id="img1" src="../../img/moon_stages.png">
-                <img id="img2" src="../../img/moon_stages.png">
+                <%- include('../../partials/moons'); %>
                 <h2>Характеристика знаків зодіаку</h2>
                 <h3>Овен<br>
                     21 березня – 21 квітня</h3>
@@ -21,7 +19,7 @@
                     Самоцвіт-оберіг – діамант<br>
                     Стихія – вогонь<br>
                     Планета – Марс</p>
-                <img id="img3" src="../../img/aries.png">
+                <img id="img3" src="static/img/aries.png">
                 <p>Представники цього знаку – природжені лідери. Вони талановито об’єднують людей для сумісної праці.
                     Овен – суцільне джерело ініціативи та енергії. Він не боїться експериментувати та пробувати щось
                     дійсно нове. Окрім цього, Овни не мають психічних бар’єрів, а тому якщо вони раптово почнуть

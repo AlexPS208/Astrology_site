@@ -1,18 +1,17 @@
-<%- include('../../partials/meta', {title: '| Козеріг', css: '../../css/signs_characteristic.css', generalCssPath: '../../'}); %>
+<%- include('../../partials/meta', {title: '| Козеріг', css: 'css/signs_characteristic.css'}); %>
 
 <body>
     <div id="main_container">
-        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+        <%- include('../../partials/header'); %>
 
         <div class="center_content">
             <div class="maintext">
                 <a href="/characteristics">
                     <div class="returnButton">
-                        <img src="../../img/back_arrow.png" alt="back_arrow">
+                        <img src="static/img/back_arrow.png" alt="back_arrow">
                     </div>
                 </a>
-                <img id="img1" src="../../img/moon_stages.png">
-                <img id="img2" src="../../img/moon_stages.png">
+                <%- include('../../partials/moons'); %>
                 <h2>Характеристика знаків зодіаку</h2>
                 <h3>Козеріг<br>
                     22 грудня – 20 січня</h3>
@@ -20,7 +19,7 @@
                     Самоцвіт-оберіг – онікс, малахіт або рубін<br>
                     Стихія – земля<br>
                     Планета – Сатурн</p>
-                <img id="img3" src="../../img/carpicorn.png">
+                <img id="img3" src="static/img/carpicorn.png">
                 <p>Про Козерогів існує твердження, що вони черстві сухарі, що не здатні на почуття. Насправді ж таке
                     враження часто буває хибним, бо Козероги це максимально потайливі люди. Вони здатні на прояви
                     яскравих та щирих почуттів хоча й домогтися такого важко. Якщо ж з Вами Козеріг поводить себе досить

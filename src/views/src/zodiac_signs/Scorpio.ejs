@@ -1,18 +1,17 @@
-<%- include('../../partials/meta', {title: '| Скорпіон', css: '../../css/signs_characteristic.css', generalCssPath: '../../'}); %>
+<%- include('../../partials/meta', {title: '| Скорпіон', css: 'css/signs_characteristic.css'}); %>
 
 <body>
     <div id="main_container">
-        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+        <%- include('../../partials/header'); %>
 
         <div class="center_content">
             <div class="maintext">
                 <a href="/characteristics">
                     <div class="returnButton">
-                        <img src="../../img/back_arrow.png" alt="back_arrow">
+                        <img src="static/img/back_arrow.png" alt="back_arrow">
                     </div>
                 </a>
-                <img id="img1" src="../../img/moon_stages.png">
-                <img id="img2" src="../../img/moon_stages.png">
+                <%- include('../../partials/moons'); %>
                 <h2>Характеристика знаків зодіаку</h2>
                 <h3>Скорпіон<br>
                     24 жовтня – 22 листопада</h3>
@@ -20,7 +19,7 @@
                     Самоцвіт-оберіг – корал<br>
                     Стихія – вода<br>
                     Планета – Марс</p>
-                <img id="img3" src="../../img/scorpio.png">
+                <img id="img3" src="static/img/scorpio.png">
                 <p>Представники знаку Скорпіон дуже харизматичні та темпераментні. Ці люди здатні втягнути Вас у
                     будь-яку авантюру, тому пригод на голову вистачить під час спілкування з ними. Ви навіть спочатку
                     можете й не зрозуміти куди Вас було втягнуто та які наслідки будуть. До того ж улюбленці Марсу це

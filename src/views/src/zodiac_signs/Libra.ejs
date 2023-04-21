@@ -1,18 +1,17 @@
-<%- include('../../partials/meta', {title: '| Терези', css: '../../css/signs_characteristic.css', generalCssPath: '../../'}); %>
+<%- include('../../partials/meta', {title: '| Терези', css: 'css/signs_characteristic.css'}); %>
 
 <body>
     <div id="main_container">
-        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+        <%- include('../../partials/header'); %>
 
         <div class="center_content">
             <div class="maintext">
                 <a href="/characteristics">
                     <div class="returnButton">
-                        <img src="../../img/back_arrow.png" alt="back_arrow">
+                        <img src="static/img/back_arrow.png" alt="back_arrow">
                     </div>
                 </a>
-                <img id="img1" src="../../img/moon_stages.png">
-                <img id="img2" src="../../img/moon_stages.png">
+                <%- include('../../partials/moons'); %>
                 <h2>Характеристика знаків зодіаку</h2>
                 <h3>Терези<br>
                     24 вересня – 23 жовтня</h3>
@@ -20,7 +19,7 @@
                     Самоцвіт-оберіг – опал<br>
                     Стихія – повітря<br>
                     Планета – Венера</p>
-                <img id="img3" src="../../img/libra.png">
+                <img id="img3" src="static/img/libra.png">
                 <p>Всі ж знають хто такі буддистські монахи? Так от, Терези зі своїм прагненням до гармонії їм не
                     поступаються. Вони також є естетами. Улюбленцям Венери притаманні стійкість духу і непохитна воля до
                     перемоги в будь-якому суперництві.</p>

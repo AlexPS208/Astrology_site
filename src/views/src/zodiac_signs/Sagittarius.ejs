@@ -1,18 +1,17 @@
-<%- include('../../partials/meta', {title: '| Стрілець', css: '../../css/signs_characteristic.css', generalCssPath: '../../'}); %>
+<%- include('../../partials/meta', {title: '| Стрілець', css: 'css/signs_characteristic.css'}); %>
 
 <body>
     <div id="main_container">
-        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+        <%- include('../../partials/header'); %>
 
         <div class="center_content">
             <div class="maintext">
                 <a href="/characteristics">
                     <div class="returnButton">
-                        <img src="../../img/back_arrow.png" alt="back_arrow">
+                        <img src="static/img/back_arrow.png" alt="back_arrow">
                     </div>
                 </a>
-                <img id="img1" src="../../img/moon_stages.png">
-                <img id="img2" src="../../img/moon_stages.png">
+                <%- include('../../partials/moons'); %>
                 <h2>Характеристика знаків зодіаку</h2>
                 <h3>Стрілець<br>
                     23 листопада – 21 грудня</h3>
@@ -20,7 +19,7 @@
                     Самоцвіт-оберіг – бірюза або сапфір<br>
                     Стихія – вогонь<br>
                     Планета – Юпітер</p>
-                <img id="img3" src="../../img/sagittarius.png">
+                <img id="img3" src="static/img/sagittarius.png">
                 <p>Мабуть, більшість супергероїв це Стрільці, адже саме у них яскраво виражені почуття та потяг до
                     справедливості. Ці представники стихії вогонь ненавидять брехню найбільше з усіх. Вони люди щирі та
                     відкриті. Цей знак любить бути в центрі уваги. Славляться вони також своєю товариськістю. Так, це ті

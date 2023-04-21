@@ -1,18 +1,17 @@
-<%- include('../../partials/meta', {title: '| Телець', css: '../../css/signs_characteristic.css', generalCssPath: '../../'}); %>
+<%- include('../../partials/meta', {title: '| Телець', css: 'css/signs_characteristic.css'}); %>
 
 <body>
     <div id="main_container">
-        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+        <%- include('../../partials/header'); %>
 
         <div class="center_content">
             <div class="maintext">
                 <a href="/characteristics">
                     <div class="returnButton">
-                        <img src="../../img/back_arrow.png" alt="back_arrow">
+                        <img src="static/img/back_arrow.png" alt="back_arrow">
                     </div>
                 </a>
-                <img id="img1" src="../../img/moon_stages.png">
-                <img id="img2" src="../../img/moon_stages.png">
+                <%- include('../../partials/moons'); %>
                 <h2>Характеристика знаків зодіаку</h2>
                 <h3>Телець<br>
                     21 квітня – 21 травня</h3>
@@ -20,7 +19,7 @@
                     Самоцвіт-оберіг – сапфір або бірюза<br>
                     Стихія – земля<br>
                     Планета – Венера</p>
-                <img id="img3" src="../../img/taurus.png">
+                <img id="img3" src="static/img/taurus.png">
                 <p>Представники цього знаку – творці та гурмани. Тельці здатні втілювати в життя найкрасивіші мрії. У
                     своїх діях вони керуються аналітичним мисленням і інтуїцією.</p>
                 <p>Телець втілює собою принцип любові до життя та його благ. Він уміє й любить працювати та прагне до

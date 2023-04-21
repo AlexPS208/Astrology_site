@@ -1,19 +1,18 @@
-<%- include('../../partials/meta', {title: '| Лев', css: '../../css/signs_characteristic.css', generalCssPath: '../../'}); %>
+<%- include('../../partials/meta', {title: '| Лев', css: 'css/signs_characteristic.css'}); %>
 
 
 <body>
     <div id="main_container">
-        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+        <%- include('../../partials/header'); %>
 
         <div class="center_content">
             <div class="maintext">
                 <a href="/characteristics">
                     <div class="returnButton">
-                        <img src="../../img/back_arrow.png" alt="back_arrow">
+                        <img src="static/img/back_arrow.png" alt="back_arrow">
                     </div>
                 </a>
-                <img id="img1" src="../../img/moon_stages.png">
-                <img id="img2" src="../../img/moon_stages.png">
+                <%- include('../../partials/moons'); %>
                 <h2>Характеристика знаків зодіаку</h2>
                 <h3>Лев<br>
                     23 липня – 22 серпня</h3>
@@ -21,7 +20,7 @@
                     Самоцвіт-оберіг – топаз, олівіт або бурштин<br>
                     Стихія – вогонь<br>
                     Планета – Сонце</p>
-                <img id="img3" src="../../img/leo.png">
+                <img id="img3" src="static/img/leo.png">
                 <p>Лев це ще один природжений лідер. Вони сильні та цілеспрямовані, чарівні й харизматичні, люблять бути
                     в центрі уваги і подобатися оточенню. Одразу видно, що вони улюбленці Сонця. Окрім цього це дуже
                     енергійні люди. Представники знаку наділені даром творення і наполегливості у досягненні своїх

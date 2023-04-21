@@ -1,18 +1,18 @@
-<%- include('../../partials/meta', {title: '| Водолій', css: '../../css/signs_characteristic.css', generalCssPath: '../../'}); %>
+<%- include('../../partials/meta', {title: '| Водолій', css: 'css/signs_characteristic.css'}); %>
 
 <body>
     <div id="main_container">
-        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+        <%- include('../../partials/header'); %>
 
         <div class="center_content">
             <div class="maintext">
                 <a href="/characteristics">
                     <div class="returnButton">
-                        <img src="../../img/back_arrow.png" alt="back_arrow">
+                        <img src="static/img/back_arrow.png" alt="back_arrow">
                     </div>
                 </a>
-                <img id="img1" src="../../img/moon_stages.png">
-                <img id="img2" src="../../img/moon_stages.png">
+                <%- include('../../partials/moons'); %>
+
                 <h2>Характеристика знаків зодіаку</h2>
                 <h3>Водолій<br>
                     21 січня – 20 лютого</h3>
@@ -20,7 +20,7 @@
                     Самоцвіт-оберіг – цирконій або гранат<br>
                     Стихія – повітря<br>
                     Планета – Сатурн</p>
-                <img id="img3" src="../../img/aquarius.png">
+                <img id="img3" src="static/img/aquarius.png">
                 <p>Водолії – люди суцільні суперечності. Їх настрій змінюється навіть не 1000 разів на день, а набагато
                     частіше. Вони яскраві індивідуалісти з темпераментом, який не можливо не помітити. Водолії волелюбні
                     й незалежні, також досить категоричні. Улюбленці Сатурну ненавидять монотонну та нудну роботу. </p>

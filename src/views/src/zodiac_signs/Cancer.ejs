@@ -1,18 +1,17 @@
-<%- include('../../partials/meta', {title: '| Рак', css: '../../css/signs_characteristic.css', generalCssPath: '../../'}); %>
+<%- include('../../partials/meta', {title: '| Рак', css: 'css/signs_characteristic.css'}); %>
 
 <body>
     <div id="main_container">
-        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+        <%- include('../../partials/header'); %>
 
         <div class="center_content">
             <div class="maintext">
                 <a href="/characteristics">
                     <div class="returnButton">
-                        <img src="../../img/back_arrow.png" alt="back_arrow">
+                        <img src="static/img/back_arrow.png" alt="back_arrow">
                     </div>
                 </a>
-                <img id="img1" src="../../img/moon_stages.png">
-                <img id="img2" src="../../img/moon_stages.png">
+                <%- include('../../partials/moons'); %>
                 <h2>Характеристика знаків зодіаку</h2>
                 <h3>Рак<br>
                     22 червня – 22 липня</h3>
@@ -20,7 +19,7 @@
                     Самоцвіт-оберіг – хризоберил або смарагд<br>
                     Стихія – вода<br>
                     Планета – Місяць</p>
-                <img id="img3" src="../../img/cancer.png">
+                <img id="img3" src="static/img/cancer.png">
                 <p>Раки вразливі та сентиментальні. Їхня реакція на все, що відбувається навколо дуже швидка й виразна.
                     Представники цього знаку часто відчувають складні душевні переживання. Зазвичай вони доброзичливі,
                     люб'язні та відверті, але можуть бути меланхолійними, замкнутими й стриманими. Тому так і хочеться

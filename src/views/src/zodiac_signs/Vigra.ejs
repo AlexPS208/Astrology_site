@@ -1,17 +1,16 @@
-<%- include('../../partials/meta', {title: '| Діва', css: '../../css/signs_characteristic.css', generalCssPath: '../../'}); %>
+<%- include('../../partials/meta', {title: '| Діва', css: 'css/signs_characteristic.css'}); %>
 
 <body>
     <div id="main_container">
-        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+        <%- include('../../partials/header'); %>
         <div class="center_content">
             <div class="maintext">
                 <a href="/characteristics">
                     <div class="returnButton">
-                        <img src="../../img/back_arrow.png" alt="back_arrow">
+                        <img src="static/img/back_arrow.png" alt="back_arrow">
                     </div>
                 </a>
-                <img id="img1" src="../../img/moon_stages.png">
-                <img id="img2" src="../../img/moon_stages.png">
+                <%- include('../../partials/moons'); %>
                 <h2>Характеристика знаків зодіаку</h2>
                 <h3>Діва<br>
                     22 серпня – 23 вересня</h3>
@@ -19,7 +18,7 @@
                     Самоцвіт-оберіг – сердолік або нефрит<br>
                     Стихія – земля<br>
                     Планета – Меркурій</p>
-                <img id="img3" src="../../img/virgo.png">
+                <img id="img3" src="static/img/virgo.png">
                 <p>Тут багато хто захоче одразу ж сказати: «Діви це душніли, яким все завжди не так». Ні, рідненькі, не
                     вгадали. Просто Дівам хочеться порядку та досконалості у своєму житті. Так, навіть якщо Вам це не
                     подобається. Так, це педанти та перфекціоністи, тому не треба чіпати оту вазу, навіть якщо дуже

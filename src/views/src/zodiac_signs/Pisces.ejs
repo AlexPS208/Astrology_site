@@ -1,18 +1,17 @@
-<%- include('../../partials/meta', {title: '| Риби', css: '../../css/signs_characteristic.css', generalCssPath: '../../'}); %>
+<%- include('../../partials/meta', {title: '| Риби', css: 'css/signs_characteristic.css'}); %>
 
 <body>
     <div id="main_container">
-        <%- include('../../partials/header', {logoRelPath: '../'}); %>
+        <%- include('../../partials/header'); %>
 
         <div class="center_content">
             <div class="maintext">
                 <a href="/characteristics">
                     <div class="returnButton">
-                        <img src="../../img/back_arrow.png" alt="back_arrow">
+                        <img src="static/img/back_arrow.png" alt="back_arrow">
                     </div>
                 </a>
-                <img id="img1" src="../../img/moon_stages.png">
-                <img id="img2" src="../../img/moon_stages.png">
+                <%- include('../../partials/moons'); %>
                 <h2>Характеристика знаків зодіаку</h2>
                 <h3>Риби<br>
                     21 лютого – 20 березня</h3>
@@ -20,7 +19,7 @@
                     Самоцвіт-оберіг – аметист або перли<br>
                     Стихія – вода<br>
                     Планета – Юпітер</p>
-                <img id="img3" src="../../img/pisces.png">
+                <img id="img3" src="static/img/pisces.png">
                 <p>Цей представник зодіакального кола є найнестабільнішим з усіх в емоційному плані. Інколи зрозуміти їх
                     дуже важко, однак слід пам’ятати, що Риби це просто ранимі та сентиментальні котики. Вони як ніхто
                     потребують емоційної підтримки. Часто можуть страждати від якихось фобій, але Вам не зізнаються в
