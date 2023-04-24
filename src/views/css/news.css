@@ -3,12 +3,10 @@
     display: inline-block;
     background: black;
     width: 80%;
-    height: 40px;
     color: white;
     margin: 10px;
     padding: 10px;
     text-align: center;
-    font-size: 30px;
     text-decoration: none;
     border-radius: 9px;
 }
@@ -23,8 +21,6 @@
 #img5 {
     float: center;
     padding: 5px;
-    width: 600px;
-    height: 400px;
 }
 
 

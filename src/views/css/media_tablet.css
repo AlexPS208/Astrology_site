@@ -1,0 +1,90 @@
+/* ------- */
+/* Tablets */
+/* ------- */
+@media (min-width: 540px) and (max-width: 1023px) {
+
+    /* General css */
+    #img1,
+    #img2 {
+        width: 450px;
+    }
+
+    .maintext {
+        font-size: 23px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Navbar */
+    .menu-main {
+        padding: 10px 0;
+    }
+
+    .menu-main>li {
+        display: block;
+    }
+
+    .menu-main li:after {
+        content: none;
+    }
+
+    .menu-main a {
+        padding: 15px 0;
+        font-size: 20px;
+        margin: 0 30px;
+    }
+
+    /* Сharacteristic page */
+    .btnWrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn {
+        min-width: 100px;
+        margin: 30px;
+        padding: 30px;
+        display: flex;
+        text-align: center;
+    }
+
+    #img3 {
+        height: 400px;
+        width: 400px;
+    }
+
+    #return {
+        align-self: flex-start;
+    }
+
+    /* News page */
+    .news {
+        font-size: 28px;
+    }
+
+    #img5 {
+        width: 500px;
+    }
+
+    /* Image on main page */
+    #imgtext {
+        width: 450px;
+        height: auto;
+    }
+
+    /* Button on advice page */
+    .advice {
+        margin: 30px 20px 25px;
+        font-size: 50px;
+    }
+
+    .animation {
+        font-size: 35px;
+    }
+
+    .done {
+        background-size: 150%;
+    }
+}

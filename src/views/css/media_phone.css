@@ -1,0 +1,90 @@
+/* ------ */
+/* Phones */
+/* ------ */
+@media (max-width: 540px) {
+
+    /* General css */
+    #img1,
+    #img2 {
+        width: 200px;
+    }
+
+    .maintext {
+        font-size: 21px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Navbar */
+    .menu-main {
+        padding: 10px 0;
+    }
+
+    .menu-main>li {
+        display: block;
+    }
+
+    .menu-main li:after {
+        content: none;
+    }
+
+    .menu-main a {
+        padding: 10px 0;
+        font-size: 17px;
+        margin: 0 25px;
+    }
+
+    /* News page */
+    .news {
+        font-size: 21px;
+    }
+
+    #img5 {
+        width: 250px;
+    }
+
+    /* Characteristic page */
+    .btnWrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn {
+        min-width: 100px;
+        margin: 30px 10px;
+        padding: 10px;
+        display: flex;
+        text-align: center;
+    }
+
+    #img3 {
+        height: 200px;
+        width: 200px;
+    }
+
+    #return {
+        align-self: flex-start;
+    }
+
+    /* Image on main page */
+    #imgtext {
+        width: 200px;
+        height: auto;
+    }
+
+    /* Button on advice page */
+    .advice {
+        margin: 30px 20px 25px;
+        font-size: 50px;
+    }
+
+    .animation {
+        font-size: 25px;
+    }
+
+    .done {
+        background-size: 200%;
+    }
+}

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
 
 .advice {
-    margin: 50px 20px 25px;
     min-height: 200px;
     padding: 7.5% 10% 3%;
     background-color: black;
@@ -9,20 +8,17 @@
 
     font-family: 'Playfair Display', serif;
     color: white;
-    font-size: 50pt;
 	
 	cursor: pointer;
 }
 
 .animation {
-    font-size: 25pt;
 	cursor: default;
 }
 
 .done {
     background-image: url('../img/star_sky_bg.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-repeat: repeat-y;
     color: white;
     opacity: 0;
 }

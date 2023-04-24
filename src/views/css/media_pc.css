@@ -1,0 +1,83 @@
+/* --------- */
+/* Computers */
+/* --------- */
+@media (min-width: 1024px) {
+
+    /* General css */
+    #img1,
+    #img2 {
+        width: 450px;
+    }
+
+    .maintext {
+        font-size: 25px;
+    }
+
+    /* Navbar */
+    .menu-main {
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    .menu-main li {
+        display: inline-block;
+    }
+
+    .menu-main li:after {
+        content: "|";
+    }
+
+    .menu-main a {
+        font-size: 17px;
+        padding-bottom: 10px;
+        margin: 0 30px;
+    }
+
+    /* Сharacteristic page */
+    .btn {
+        width: 100px;
+        margin: 30px;
+        padding: 30px;
+    }
+
+    .news {
+        font-size: 30px;
+    }
+
+    #img3 {
+        height: 400px;
+        width: 400px;
+    }
+
+    #return {
+        margin-left: 20px;
+        align-self: flex-start;
+    }
+
+    /* News page */
+    #img5 {
+        width: 600px;
+    }
+
+    /* Image on main page */
+    #imgtext {
+        width: 650px;
+        height: auto;
+        float: left;
+        margin: 25px 10px 25px 0;
+    }
+
+    /* Button on advice page */
+    .advice {
+        margin: 50px 20px 25px;
+        font-size: 50pt;
+    }
+
+    .animation {
+        font-size: 25pt;
+    }
+
+    .done {
+        background-size: 100%;
+    }
+}
