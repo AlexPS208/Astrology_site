@@ -80,4 +80,9 @@
     .done {
         background-size: 100%;
     }
+
+    .scrollButton {
+        left: 90%;
+        bottom: 40px;
+    }
 }
